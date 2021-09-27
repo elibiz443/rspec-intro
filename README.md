@@ -4,7 +4,7 @@
 
 * This is an app that shows the tv programs available at various times and the age restrictions for the programs.
 
-Runing the app:
+Running the app:
 
 Run the following in your terminal:
 
@@ -93,7 +93,11 @@ cd ..
 ```
 bundle init
 ```
-go to Gemfile and add:
+Open Gemfile:
+```
+nano Gemfile
+```
+Copy and paste the following in Gemfile. Save by CTRL + O & exit with CTRL + X:
 ```
 gem 'rspec'
 ```
