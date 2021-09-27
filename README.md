@@ -2,7 +2,7 @@
 
 * This is a simple demonstration of testing with RSpec.
 
-* This is an app that shows tv programs and available at various times and the age restrictions for the programs.
+* This is an app that shows the tv programs available at various times and the age restrictions for the programs.
 
 Runing the app:
 
@@ -86,6 +86,7 @@ class Myapp
   end
 end
 ```
+Continue in terminal:
 ```
 cd ..
 ```
@@ -101,6 +102,7 @@ Run in terminal:
 bundle binstubs rspec-core
 ```
 The above adds bin folder with rspec executables.
+
 Continue in terminal:
 ```
 bin/rspec --init
@@ -112,6 +114,7 @@ Copy and paste the following, then save by CTRL + O & exit with CTRL + X:
 ```
 --format documentation
 ```
+Continue in terminal:
 ```
 cd spec
 ```
@@ -119,8 +122,6 @@ cd spec
 touch myapp_spec.rb
 ```
 ```
-
-
 nano myapp_spec.rb
 ```
 Copy and paste the following, then save by CTRL + O & exit with CTRL + X:
@@ -191,10 +192,11 @@ describe Myapp do
   end
 end
 ```
+Continue in terminal:
 ```
 cd ..
 ```
-Run the tests by running the following in terminal:
+Run the tests using:
 ```
 bin/rspec
 ```
